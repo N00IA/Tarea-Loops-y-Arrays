@@ -57,13 +57,10 @@ function secretName(names) {
   return initials;
 }
 
-// Ejemplos:
 console.log(secretName(['Esperanza', 'Franco', 'Nia'])); 
 console.log(secretName(['Phoebe', 'Ross', 'Chandler', 'Joey', 'Monica', 'Rachel'])); 
 console.log(secretName(['Harry', 'Ron', 'Hermione']));
 console.log(secretName(['Rafael', 'Marco', 'Hortencia','Ricardo','Fabiola']));
-
-
 
 //Online status
  
@@ -80,11 +77,8 @@ function onlineStatus(users) {
   return `${users[0]}, ${users[1]} and ${users.length - 2} more online`;
 }
 
-// Ejemplo:
 console.log(onlineStatus(['mockIng99', 'J0eyPunch', 'glassedFer']));
 console.log(onlineStatus(['Dragonboy00', 'Noia098', 'KalzIfEx','RanDYorToN','mIKERLangelo222']));
-
-
 
 //Array of Multiples
  
